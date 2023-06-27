@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Dancing+Script:wght@700&family=Merriweather:wght@300&display=swap');
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(103, 255, 242, 0.212);
+ 
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(103, 255, 242, 0.062);
+  text-align: center;
+  
+}
+
+body {
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Merriweather', serif;
+    background: var(--color-gradient), url('https://cdn-blog1.fibrasynormasdecolombia.com/wp-content/uploads/2021/03/1600993945916-1.jpg') no-repeat center fixed;
+    --color-gradient: linear-gradient( 92.7deg, rgba(33, 129, 194, 0.75) -4.3%, rgba(44, 206, 38, 0.747) 101.8% );
+    
+  }
+
+  
+  h1 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  
+  .searchContainer {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       
+  }
+  
+  #searchInput {
+    
+    width: 400px;
+    font-family: 'Merriweather', serif;
+    height: 25px;
+    align-items: center;
+    
+    
+  }
+  
+  #searchButton {
+    padding: 7px 10px;
+    border-radius: 5px;
+    border-style: initial;
+    font-family: 'Merriweather', serif;
+    margin: 5px;
+    width: 80px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(158, 226, 49);
+    cursor: pointer;
+    align-items: center;
+    
+  }
+  
+  #resultsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  
+  .bookCard {
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    border: 1.5px solid #ffffffc2;
+    border-radius: 10px;
+    display: flex;
+    background-color: rgba(248, 239, 239, 0.671);
+  }
+  
+  .bookCard img {
+    max-width: 180px;
+    max-height: 250px;
+    object-fit: contain;
+  }
+  
+  .bookCard .bookInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 10px;
+  }
+  
+  .bookCard p {
+    margin: 5px 0;
+    font-weight: bold;
+  }
+  
+  .bookCard .carrera {
+    margin-top: 10px;
+    font-weight: bold;
+  }
